@@ -65,12 +65,10 @@ set first_name =
 where actor_id = 172;
 ```
 
--- 5
+-- 5, 6
 
 ```sql
 show create table address;
-
--- 6
 
 select s.first_name, s.last_name, a.address
 from staff s join address a 
